@@ -1,0 +1,56 @@
+body{
+    background-color: #0C356A;
+}
+#title{
+    color: lightgoldenrodyellow;
+    text-shadow: 2px 2px black;
+    display: flex;
+    justify-content: center;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 5rem;
+}
+.btn{
+    width: 15rem;
+    height: 15rem;
+    border: 10px solid black;
+    border-radius: 2rem;
+}
+.green{
+    background-color: green;
+}
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
+.blue{
+    background-color: blue;
+}
+.sub{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    font-size: 1.5rem;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 50px;
+    font-family: cursive;
+}
+.pressed{
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+}
+.game-over{
+    background-color: red;
+}
